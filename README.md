@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Money Management System - Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🎯 **Purpose**
+A comprehensive React-based personal finance dashboard designed to help users track, plan, and manage their money effectively using Kenyan Shilling (KES) currency.
 
-## Available Scripts
+## 💡 **Core Features**
 
-In the project directory, you can run:
+### **Budget Planning & Tracking**
+- **Income Management**: Set planned vs actual income with real-time difference calculations
+- **Expense Categories**: Organized into Essential (rent, utilities, groceries) and Non-Essential (dining, entertainment, shopping)
+- **Savings & Investments**: Track emergency funds, sinking funds, and investment contributions
+- **Debt Management**: Monitor credit cards and loan payments
 
-### `npm start`
+### **Smart Input System**
+- **Debounced Inputs**: 500ms delay prevents excessive calculations while typing
+- **Real-time Calculations**: Instant updates to totals and differences
+- **Pre-filled Templates**: Default budget amounts based on common Kenyan expenses
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Visual Analytics**
+- **Pie Chart**: Percentage breakdown of expense categories
+- **Bar Chart**: Side-by-side comparison of planned vs actual spending
+- **Summary Cards**: At-a-glance totals for all financial categories
+- **Remaining Balance**: Shows leftover money or budget overage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Technical Architecture**
+- **Modular Design**: Separate calculations logic from UI components
+- **Responsive Layout**: Works on desktop and mobile devices
+- **Modern UI**: Gradient backgrounds, shadows, and smooth interactions
+- **Performance Optimized**: Debounced inputs and efficient state management
 
-### `npm test`
+## 🎨 **User Experience**
+- **Intuitive Interface**: Color-coded categories (green=income, red=essential, orange=non-essential, purple=savings, pink=debt)
+- **Immediate Feedback**: Visual indicators for over/under budget scenarios
+- **Local Currency**: All amounts formatted in Kenyan Shilling (KES)
+- **Interactive Tables**: Click-to-edit cells for easy budget adjustments
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📊 **Key Benefits**
+- **Budget Awareness**: Clear visibility into spending patterns
+- **Goal Tracking**: Monitor progress toward savings and debt reduction
+- **Decision Making**: Data-driven insights for financial choices
+- **Financial Health**: Quick assessment of remaining budget and overspending
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Perfect for individuals looking to gain control over their personal finances with a modern, user-friendly tool.

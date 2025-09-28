@@ -1,0 +1,266 @@
+/* src/styles/MoneyManagement.css */
+
+.money-management {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 50%, #f3e8ff 100%);
+  padding: 24px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #4f46e5, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  color: #6b7280;
+  font-size: 1.125rem;
+}
+
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.summary-card {
+  padding: 16px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.summary-card.income {
+  background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.summary-card.essential {
+  background: linear-gradient(135deg, #f87171, #dc2626);
+}
+
+.summary-card.non-essential {
+  background: linear-gradient(135deg, #fbbf24, #d97706);
+}
+
+.summary-card.savings {
+  background: linear-gradient(135deg, #a78bfa, #7c3aed);
+}
+
+.summary-card.debt {
+  background: linear-gradient(135deg, #f472b6, #ec4899);
+}
+
+.summary-card.remaining {
+  background: linear-gradient(135deg, #34d399, #10b981);
+}
+
+.summary-card.remaining.negative {
+  background: linear-gradient(135deg, #f87171, #dc2626);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.income-section {
+  background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #166534;
+}
+
+.income-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #166534;
+  margin-bottom: 8px;
+}
+
+.input-field {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.categories-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.category-table {
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.category-table.essential {
+  background: linear-gradient(135deg, #fee2e2, #fecaca);
+}
+
+.category-table.non-essential {
+  background: linear-gradient(135deg, #fef3c7, #fed7aa);
+}
+
+.category-table.savings {
+  background: linear-gradient(135deg, #e9d5ff, #ddd6fe);
+}
+
+.category-table.debt {
+  background: linear-gradient(135deg, #fce7f3, #f9a8d4);
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: left;
+  padding: 12px 8px;
+  font-weight: 600;
+  border-bottom: 2px solid;
+}
+
+.table td {
+  padding: 12px 8px;
+  border-bottom: 1px solid rgba(156, 163, 175, 0.3);
+}
+
+.table tr:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.table input {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.total-row {
+  font-weight: bold;
+  font-size: 1.125rem;
+  border-top: 2px solid;
+}
+
+.charts-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 32px;
+}
+
+.chart-container {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.chart-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.difference-positive {
+  color: #dc2626;
+}
+
+.difference-negative {
+  color: #16a34a;
+}
+
+.difference-neutral {
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .summary-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .income-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .charts-section {
+    grid-template-columns: 1fr;
+  }
+}
