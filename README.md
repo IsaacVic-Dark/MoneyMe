@@ -1,9 +1,9 @@
 # Money Management System - Overview
 
-## 🎯 **Purpose**
+##  **Purpose**
 A comprehensive React-based personal finance dashboard designed to help users track, plan, and manage their money effectively using Kenyan Shilling (KES) currency.
 
-## 💡 **Core Features**
+##  **Core Features**
 
 ### **Budget Planning & Tracking**
 - **Income Management**: Set planned vs actual income with real-time difference calculations
@@ -28,16 +28,20 @@ A comprehensive React-based personal finance dashboard designed to help users tr
 - **Modern UI**: Gradient backgrounds, shadows, and smooth interactions
 - **Performance Optimized**: Debounced inputs and efficient state management
 
-## 🎨 **User Experience**
+##  **User Experience**
 - **Intuitive Interface**: Color-coded categories (green=income, red=essential, orange=non-essential, purple=savings, pink=debt)
 - **Immediate Feedback**: Visual indicators for over/under budget scenarios
 - **Local Currency**: All amounts formatted in Kenyan Shilling (KES)
 - **Interactive Tables**: Click-to-edit cells for easy budget adjustments
 
-## 📊 **Key Benefits**
+##  **Key Benefits**
 - **Budget Awareness**: Clear visibility into spending patterns
 - **Goal Tracking**: Monitor progress toward savings and debt reduction
 - **Decision Making**: Data-driven insights for financial choices
 - **Financial Health**: Quick assessment of remaining budget and overspending
 
 Perfect for individuals looking to gain control over their personal finances with a modern, user-friendly tool.
+
+Installtion:
+npm install
+npm start
